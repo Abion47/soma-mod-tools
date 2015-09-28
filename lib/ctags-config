@@ -140,3 +140,13 @@
 --langmap=Julia:.jl
 --regex-Julia=/^[ \t]*(function|macro|abstract|type|typealias|immutable)[ \t]+([^ \t({[]+).*$/\2/f,function/
 --regex-Julia=/^[ \t]*(([^@#$ \t({[]+)|\(([^@#$ \t({[]+)\)|\((\$)\))[ \t]*(\{.*\})?[ \t]*\([^#]*\)[ \t]*=([^=].*$|$)/\2\3\4/f,function/
+
+--langdef=Angelscript
+--langmap=Angelscript:.hps
+
+--regex-Angelscript=/^[ \t]*(mixin)?[ \t]*class[ \t]+([A-Za-z0-9_]+)[ \t]*/\2/c,class/
+--regex-Angelscript=/^[ \t]*interface[ \t]+([A-Za-z0-9_]+)/\1/i,interface/
+--regex-Angelscript=/^[ \t]*typedef[ \t]+([A-Za-z0-9_]+)\s+([A-Za-z0-9_]+)/\2/t,typedef/
+--regex-Angelscript=/^[ \t]*funcdef[ \t]+([A-Za-z0-9_]+)\s+([A-Za-z0-9_]+)/\2/t,typedef/
+--regex-Angelscript=/^[ \t]*enum[ \t]+([A-Za-z0-9_]+)/\1/t,typedef/
+--regex-Angelscript=/^[ \t]*([a-zA-Z0-9_@&\+]+)[ \t]+([a-zA-Z0-9_]+)[ \t]*\(.*\)\s*(const)?\s*($|\{)/\2/f,function/
