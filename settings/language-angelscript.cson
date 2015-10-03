@@ -1,0 +1,6 @@
+'.source.hps':
+  'editor':
+    'commentStart': '// '
+    'foldEndPattern': '^\\s*(\\}|// \\}\\}\\}$)'
+    'increaseIndentPattern': '^.*\\{(\\}|[^}"\']*)$'
+    'decreaseIndentPattern': '^(.*\\*/)?\\s*\\}'
