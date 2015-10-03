@@ -1,10 +1,9 @@
 {
   "name": "soma-mod-tools",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scripting & Modding support for SOMA",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/apjjm/soma-mod-tools",
   "license": "MIT",
   "engines": {
