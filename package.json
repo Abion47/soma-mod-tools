@@ -1,7 +1,7 @@
 {
   "name": "soma-mod-tools",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scripting & Modding support for SOMA",
   "keywords": [],
   "repository": "https://github.com/apjjm/soma-mod-tools",
