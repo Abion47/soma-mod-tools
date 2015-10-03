@@ -1,6 +1,6 @@
 {Task} = require 'atom'
-ctags = require 'ctags'
 async = require 'async'
+ctags = require './ctags-symbols-view'
 getTagsFile = require "./get-tags-file"
 
 handlerPath = require.resolve './load-tags-handler'

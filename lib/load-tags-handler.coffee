@@ -1,5 +1,5 @@
 async = require 'async'
-ctags = require 'ctags'
+ctags = require './ctags-symbols-view'
 getTagsFile = require './get-tags-file'
 
 module.exports = (directoryPaths) ->
